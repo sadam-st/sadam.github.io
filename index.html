@@ -232,32 +232,6 @@ BMC Bioinformatics<br>
 	</tbody>
 </table>
 
-<!--
-<h3>Ask me about Sam!</h3>
-<div class="chat-container" style="border: 1px solid #ddd; padding: 10px; width: 300px; margin: auto; text-align: center;">
-    <div id="chat-output" style="height: 150px; overflow-y: auto; border: 1px solid #ccc; padding: 5px; text-align: left;"></div>
-    <input type="text" id="user-input" placeholder="Type your question..." style="width: 80%; padding: 5px; margin-top: 5px;" />
-    <button onclick="askAI()" style="padding: 5px 10px; cursor: pointer;">Ask</button>
-</div>
--->	
-
-<body>
-	<!--
- <div id="footer">
-	<div id="footer-text"></div>
-
-</div>
-<p>
-  <center>
-    <div style="width: 50%; margin: 0 auto;">
-      <script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=a6hZk9aubi9QlyvpSiUMWdmycPkWbTU-97a9NGfGpjU&cl=ffffff&w=a"></script>
-    </div>
-    <br>
-    &copy; Sadam Hussain | Last updated: Jan 2025
-  </center>
-</p>
-</div>
--->
 	
 	
 </div>
@@ -271,39 +245,6 @@ BMC Bioinformatics<br>
 </div>
 	
 <body>
-
-<!--
-<script>
-  async function askAI() {
-      const userInput = document.getElementById("user-input").value;
-      const chatOutput = document.getElementById("chat-output");
-      
-      chatOutput.innerHTML += `<p><b>You:</b> ${userInput}</p>`;
-
-      const response = await fetch("https://api.openai.com/v1/chat/completions", {
-          method: "POST",
-          headers: {
-              "Content-Type": "application/json",
-              "Authorization": "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"
-          },
-          body: JSON.stringify({
-              model: "gpt-3.5-turbo",
-              messages: [
-                  { role: "system", content: "You are a chatbot that only talks about Sam. If someone asks about anything else, politely say you can only talk about Sam." },
-                  { role: "user", content: userInput }
-              ]
-          })
-      });
-
-      const data = await response.json();
-      const botReply = data.choices[0].message.content;
-
-      chatOutput.innerHTML += `<p><b>AI:</b> ${botReply}</p>`;
-  }
-</script>
--->
-
-
 	
 </body></html>
 
